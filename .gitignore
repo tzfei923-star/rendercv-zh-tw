@@ -182,6 +182,10 @@ rendercv_output/
 # Mac:
 .DS_Store
 
+# Local CVs and generated Traditional Chinese example artifacts:
+/private-cvs/
+/examples/zh-TW/rendercv_output/
+
 # Profiling:
 render_command.prof
 

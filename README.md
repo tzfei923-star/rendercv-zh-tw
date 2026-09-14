@@ -1,3 +1,17 @@
+# RenderCV 繁體中文工作台（非官方 fork）
+
+面向台灣求職者的繁體中文延伸專案，以官方 **v2.8** 為相容基準。
+
+**已新增：** [繁體中文入門與維護說明](README.zh-TW.md)、[虛構中文履歷範例](examples/zh-TW/Example_CV.yaml)。
+
+**規劃中，尚未提供：** 中文表單、YAML 匯入匯出介面、PDF 預覽及職缺版本管理。
+
+Forked from [rendercv/rendercv](https://github.com/rendercv/rendercv), by Sina Atalay and contributors. Git history and the original [MIT license](LICENSE) are preserved. This is an unofficial extension, not an official RenderCV localization. Rendering and validation come from upstream RenderCV; this fork currently adds documentation and examples.
+
+中文開發分支為 `zh-tw`，`main` 保留作為上游對照。以下保留原始英文 README。
+
+---
+
 <div align="center">
 <h1>RenderCV</h1>
 

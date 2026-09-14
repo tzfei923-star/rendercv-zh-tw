@@ -1,0 +1,49 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.8/schema.json
+# 所有人物、機構、經歷與數字均為虛構，僅供展示排版。
+cv:
+  name: 陳範例
+  headline: 專案協調｜研究資料整理
+  location: 台北，台灣
+  email: example.cv@example.com
+  sections:
+    摘要:
+      - 具研究與專案協調經驗，擅長整理工作需求、追蹤時程及製作報告。本履歷為虛構範例，請替換為本人實際經歷。
+    學歷:
+      - institution: 範例大學（虛構）
+        area: 生命科學
+        degree: 碩士
+        start_date: 2022-09
+        end_date: 2024-06
+    工作經歷:
+      - company: 示範研究公司（虛構）
+        position: 專案協調員
+        start_date: 2024-07
+        end_date: present
+        highlights:
+          - 協調 2 項研究工作，整理時程、會議紀錄及待辦事項。
+          - 建立樣本追蹤表，整理 80 筆示範紀錄並檢查缺漏欄位。
+    專案:
+      - name: 研究資料整理流程（虛構專案）
+        highlights:
+          - 整理資料欄位定義與命名規則，製作操作說明供團隊使用。
+    技能:
+      - label: 資料整理
+        details: Excel、Python、研究紀錄管理
+design:
+  theme: classic
+  page:
+    size: a4
+  typography:
+    alignment: left
+    font_family: Noto Sans TC
+locale:
+  language: mandarin_chinese
+  last_updated: 最後更新於
+  month: 個月
+  months: 個月
+  present: 至今
+settings:
+  current_date: '2026-09-14'
+  pdf_title: 虛構中文履歷範例
+  render_command:
+    output_folder: rendercv_output
